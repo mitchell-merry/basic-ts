@@ -1,0 +1,17 @@
+{
+  "name": "basic-ts",
+  "version": "0.0.0",
+  "description": "a basic ts setup",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "Mitchell Merry",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node18-strictest-esm": "^1.0.1",
+    "@types/node": "^18.13.0",
+    "typescript": "^4.9.5"
+  }
+}
